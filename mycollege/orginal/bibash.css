@@ -1,0 +1,172 @@
+  *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main-page{
+            background-image: url(../img/Create%20Account.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        
+        .circle1,.circle2,.circle3,.circle4,.circle5,.circle6{
+            width: 50px;
+            height: 50px;
+            background-color: #000;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 5px 5px 5px black;
+            margin: 0 auto;
+        }
+        
+        .parent{
+            position: fixed;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%,-5%);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+            justify-content: center;
+            grid-column-gap: 20px;
+            text-align: center;
+            grid-row-gap: 20px;
+        }
+        
+        .bg{
+            width: 100%;
+            height: 100%;
+            filter: blur(2px);
+        }
+        
+        .parent h1{
+            font-size: 20px;
+            letter-spacing: 5px;
+            margin-top: 10px;
+        }
+        
+        .bg:hover{
+            filter: none;
+        }
+        .circle1 .bg{
+            background-image: url(../img/flat-home-icon-house-sign-web-internet-button-vector-13229330.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        
+        
+        
+        
+         .circle2 .bg{
+            background-image: url(../img/facultyicon.png);
+            background-size: cover;
+            background-position: center;
+        }
+         .circle3 .bg{
+            background-image: url(../img/messagered.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+         .circle4 .bg{
+            background-image: url(../img/Notice.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .circle5 .bg{
+            background-image: url(../img/images.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+         .circle6 .bg{
+            background-image: url(../img/logo.png);
+            background-size: cover;
+            background-position: center;
+        }
+       
+/*        *************************************************/
+/*        Notice Page Design*/
+/*        *************************************************/
+        .main-page{
+           background-image: url(../img/homepic.jpg);
+            background-size: cover;
+            background-position: center;  
+            height: 100vh;
+        }
+        .faculty{
+            
+            background-image: url(../img/reading-books-.jpeg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+         .message{
+            
+            background-image: url(../img/messagefountain.png);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+         .notice{
+            
+            background-image: url(../img/ones.png);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+         .result{
+            
+            background-image: url(../img/Hong-Kong.png);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .Account{
+            
+            background-image: url(../img/libros-playa-612x408.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+         
+        
+        .btn{
+            background-color: #ff4e50;
+           width: 404px;
+    height: 40px; 
+             color: white;
+        }
+        .box{
+            width: 399px;
+    height: 40px;
+        background-color: #eae374;     
+            
+        }
+       
+       
+        .box-description{
+            height: 150px;
+            width: 400px;
+            background-color: 	#eae374;
+        }
+        .notice-form{
+            text-align: center;
+        }
+        .message-form{
+            
+            text-align: center;
+            
+        }
+        .faculty-form{
+            text-align: center;
+        }
+        .result-form{
+            text-align: center;
+        }
+        .account-form{
+            text-align: center;
+        }
+        .message-form{
+            text-align: center;
+        }

@@ -1,0 +1,20 @@
+
+body{
+            margin: 0;
+            padding: 0;
+            background-color: brown;
+            background-position: center;
+        }
+h1{
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+form{
+    text-align: center;
+}
+.Username{
+    padding: 20px;
+}
+        

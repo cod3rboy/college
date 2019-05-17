@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyCollege</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+        <h1 class="display-4">Hello, Welcome to MyCollege!</h1>
+        <p class="lead">It is the method of teaching, especially as an academic subject or theoretical concept. MyCollege is the discipline that deals with the theory and practice of education; it thus concerns the study and practice of how best to teach. Its aims range from the general (full development of the human being via liberal education) to the narrower specifics of vocational education.</p>
+        <hr class="my-4">
+        <p>MyCollege The solution built for Teachers and Student</p>
+        <a class="btn btn-primary btn-lg" href="login.html" role="button">Login</a>
+        <a class="btn btn-primary btn-lg" href="register.html" role="button">Signup</a>
+        </div>
+    </div>
+</body>
+</html>

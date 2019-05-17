@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/image.jpeg);
+    background-size: cover;
+    background-position: center;
+           
+}
+.container h1,p{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.container h1{
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 5px 5px 5px black;
+    
+}
+span{
+    color: red;
+}
+.container p{
+    color: red;
+    margin:10px;
+}
+.form-container{
+    position: absolute;
+/*    border: 1px solid black;*/
+    top:50%;
+    left:50%;
+/*    width: 1200px;*/
+/*    height: 800px;*/
+    transform: translate(-50%,-50%);
+
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-color: aqua;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 4px 4px 4px black;
+    font-size: 15px;
+}
+label{
+    color:indianred;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px black;
+}
+select{
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-color: goldenrod;
+}
+select option{
+    font-weight: bold;
+    font-size: 16px;
+}
+.register{
+    position: absolute;
+    width: 90px;
+    padding: 15px;
+    border-radius: 15px;
+    left: 20%;
+    box-shadow: 5px 5px 5px black;
+    background-color: darkred;
+}
+
+a{
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 1s;
+
+    }
+a:hover{
+    color: black;
+}
